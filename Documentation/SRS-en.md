@@ -2,37 +2,37 @@
 ---
 
 # Content
-1 [Introduction](# intro) <br>
-  1.1 [Appointment](# appointment) <br>
-  1.2 [Business Requirements](# business_requirements) <br>
-    1.2.1 [Source Data](# initial_data) <br>
-    1.2.2 [Business Opportunities](# business_opportunities) <br>
-    1.2.3 [Project Boundaries](# project_boundary) <br>
-  1.3 [Analogs](# analogues) *
-2 [User Requirements](# user_requirements) <br>
-  2.1 [Software Interfaces](# software_interfaces) <br>
-  2.2 [User Interface](# user_interface) <br>
-  2.3 [User Features](# user_specifications) <br>
-    2.3.1 [User Classes](# user_classes) <br>
-    2.3.2 [Application audience](# application_audience) <br>
-      2.3.2.1 [Target audience](# target_audience) <br>
-      2.3.2.2 [Secondary audience](# collateral_audience) <br>
-  2.4 [Assumptions and Dependencies](# assumptions_and_dependencies) <br>
-3 [System Requirements](# system_requirements) <br>
-  3.1 [Functional requirements](# functional_requirements) <br>
-    3.1.1 [Basic Functions](# main_functions) <br>
-      3.1.1.1 [Create Note](# user_logon_to_the_application) <br>
-      3.1.1.2 [Add Note](# setting_up_the_profile_of_the_active_user) <br>
-      3.1.1.3 [Edit post](# download_news) <br>
-      3.1.1.4 [Save Note](# view_information_about_an_individual_newsletter) <br>
-      3.1.1.5 [Delete Note](# active_user_change) <br>
-    3.1.2 [Limitations and Exceptions](# restrictions_and_exclusions) <br>
-  3.2 [Non-functional requirements](# non-functional_requirements) <br>
-    3.2.1 [Quality Attributes](# quality_attributes) <br>
-      3.2.1.1 [Usability Requirements](# requirements_for_ease_of_use) <br>
-      3.2.1.2 [Security Requirements](# security_requirements) <br>
-    3.2.2 [External Interfaces](# external_interfaces) <br>
-    3.2.3 [Restrictions](# restrictions) <br>
+1 [Introduction](#intro) <br>
+  1.1 [Appointment](#appointment) <br>
+  1.2 [Business Requirements](#business_requirements) <br>
+    1.2.1 [Source Data](#initial_data) <br>
+    1.2.2 [Business Opportunities](#business_opportunities) <br>
+    1.2.3 [Project Boundaries](#project_boundary) <br>
+  1.3 [Analogs](#analogues) <br>
+2 [User Requirements](#user_requirements) <br>
+  2.1 [Software Interfaces](#software_interfaces) <br>
+  2.2 [User Interface](#user_interface) <br>
+  2.3 [User Features](#user_specifications) <br>
+    2.3.1 [User Classes](#user_classes) <br>
+    2.3.2 [Application audience](#application_audience) <br>
+      2.3.2.1 [Target audience](#target_audience) <br>
+      2.3.2.2 [Secondary audience](#collateral_audience) <br>
+  2.4 [Assumptions and Dependencies](#assumptions_and_dependencies) <br>
+3 [System Requirements](#system_requirements) <br>
+  3.1 [Functional requirements](#functional_requirements) <br>
+    3.1.1 [Basic Functions](#main_functions) <br>
+      3.1.1.1 [Create Note](#user_logon_to_the_application) <br>
+      3.1.1.2 [Add Note](#setting_up_the_profile_of_the_active_user) <br>
+      3.1.1.3 [Edit post](#download_news) <br>
+      3.1.1.4 [Save Note](#view_information_about_an_individual_newsletter) <br>
+      3.1.1.5 [Delete Note](#active_user_change) <br>
+    3.1.2 [Limitations and Exceptions](#restrictions_and_exclusions) <br>
+  3.2 [Non-functional requirements](#non-functional_requirements) <br>
+    3.2.1 [Quality Attributes](#quality_attributes) <br>
+      3.2.1.1 [Usability Requirements](#requirements_for_ease_of_use) <br>
+      3.2.1.2 [Security Requirements](#security_requirements) <br>
+    3.2.2 [External Interfaces](#external_interfaces) <br>
+    3.2.3 [Restrictions](#restrictions) <br>
 
 <a name="intro"/>
 
@@ -151,7 +151,7 @@ People of any age category with the above qualities.
 **Description.** The user has the ability to create an entry.
 
 | Function | Requirements |
-|: --- |: --- |
+|:--- |:---|
 | Create Note | The application must provide the user the ability to create a record |
 
 
@@ -161,7 +161,7 @@ People of any age category with the above qualities.
 **Description.** User has the option to add a new entry.
 
 | Function | Requirements |
-|: --- |: --- |
+|:---|:---|
 | Add Note | The application should provide the user with a field to enter the main topic (name) of the entry, as well as a brief description of the topic of the entry. The user must either fill in all the fields and confirm the action, or cancel it |
 
 <a name="download_news"/>
@@ -170,7 +170,7 @@ People of any age category with the above qualities.
 **Description.** The user should be able to change the added entry.
 
 | Function | Requirements |
-|: --- |: --- |
+|:---|:---|
 | Edit Note | The application should provide the user with the ability to edit individual elements of a post: subject, description |
 
 
@@ -180,7 +180,7 @@ People of any age category with the above qualities.
 **Description.** The user should be able to save their records.
 
 | Function | Requirements |
-|: --- |: --- |
+|:---|:---|
 | Save Note | The user has the opportunity to choose the path to save their records. The application should display the path for storing records, selected by default, and also provide the ability to select another path |
 
 
@@ -190,7 +190,7 @@ People of any age category with the above qualities.
 **Description.** The user should be able to delete unwanted entries.
 
 | Function | Requirements |
-|: --- |: --- |
+|:---|:---|
 | Delete Note | The user has the ability to delete an extra entry. The application should display a window to confirm the deletion of the selected entry and give the user one last chance before choosing |
 
 
