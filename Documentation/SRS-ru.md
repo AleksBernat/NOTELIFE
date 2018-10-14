@@ -86,34 +86,22 @@
 ## 2.2 Интерфейс пользователя
 - Окно входа в приложение.  
 
-[Main](/AleksBernat/NOTELIFE/blob/master/Mockups/Main.png?raw=true)  
+![Main](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Main.png)  
 - Окно создания записи.  
 
-[Main](/AleksBernat/NOTELIFE/blob/master/Mockups/Main.png)  
-- Окно создания записи.  
-
-[Main](AleksBernat/NOTELIFE/blob/master/Mockups/Main.png)  
-- Окно создания записи.  
-
-[Main](/NOTELIFE/blob/master/Mockups/Main.png)  
-- Окно создания записи.  
-
-[Main](NOTELIFE/blob/master/Mockups/Main.png)  
-- Окно создания записи.  
-
-![CreateNote](NOTELIFE/Mockups/CreateNote.png)  
+![CreateNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/CreateNote.png)  
 - Окно добавления новой записи.  
 
-![AddNote](NOTELIFE/Mockups/AddNote.png)  
+![AddNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/AddNote.png)  
 - Окно успешно добавленной записи.  
 
-![NoteAdded](NOTELIFE/Mockups/NoteAdded.png)  
+![NoteAdded](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/NoteAdded.png)  
 - Окно удаления записи.  
 
-![DeleteNote](NOTELIFE/Mockups/DeleteNote.png)  
+![DeleteNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/DeleteNote.png)  
 - Окно выбора пути для сохранения записи.  
 
-![Settings](NOTELIFE/Mockups/Settings.png)  
+![Settings](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Settings.png)  
 
 <a name="user_specifications"/>
 
