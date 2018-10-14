@@ -86,7 +86,19 @@
 ## 2.2 Интерфейс пользователя
 - Окно входа в приложение.  
 
-[Main](NOTELIFE/Mockups/Main.png)  
+[Main](/AleksBernat/NOTELIFE/blob/master/Mockups/Main.png?raw=true)  
+- Окно создания записи.  
+
+[Main](/AleksBernat/NOTELIFE/blob/master/Mockups/Main.png)  
+- Окно создания записи.  
+
+[Main](AleksBernat/NOTELIFE/blob/master/Mockups/Main.png)  
+- Окно создания записи.  
+
+[Main](/NOTELIFE/blob/master/Mockups/Main.png)  
+- Окно создания записи.  
+
+[Main](NOTELIFE/blob/master/Mockups/Main.png)  
 - Окно создания записи.  
 
 ![CreateNote](NOTELIFE/Mockups/CreateNote.png)  
