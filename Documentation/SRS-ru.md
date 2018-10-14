@@ -85,17 +85,17 @@
 
 ## 2.2 Интерфейс пользователя
 Окно входа в приложение.  
-![Main](Mockups/Main.png)  
+![Main](../../Mockups/Main.png)  
 Окно создания записи.  
-![CreateNote](Mockups/CreateNote.png)  
+![CreateNote](../../Mockups/CreateNote.png)  
 Окно добавления новой записи.  
-![AddNote](Mockups/AddNote.png)  
+![AddNote](../../Mockups/AddNote.png)  
 Окно успешно добавленной записи.  
-![NoteAdded](Mockups/NoteAdded.png)  
+![NoteAdded](../../Mockups/NoteAdded.png)  
 Окно удаления записи.  
-![DeleteNote](Mockups/DeleteNote.png)  
+![DeleteNote](../../Mockups/DeleteNote.png)  
 Окно выбора пути для сохранения записи.  
-![Settings](Mockups/Settings.png)  
+![Settings](../../Mockups/Settings.png)  
 
 <a name="user_specifications"/>
 
