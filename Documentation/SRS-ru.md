@@ -85,17 +85,17 @@
 
 ## 2.2 Интерфейс пользователя
 Окно входа в приложение.  
-![Окно входа в приложение](NOTELIFE/Mockups/Main.PNG)  
+![Main](Mockups/Main.png)  
 Окно создания записи.  
-![Окно создания записи](../Mockups/CreateNote.PNG)  
+![CreateNote](Mockups/CreateNote.png)  
 Окно добавления новой записи.  
-![Окно добавления новой записи](../../Mockups/AddNote.PNG)  
+![AddNote](Mockups/AddNote.png)  
 Окно успешно добавленной записи.  
-![Окно успешно добавленной записи](../../Mockups/NoteAdded.PNG)  
+![NoteAdded](Mockups/NoteAdded.png)  
 Окно удаления записи.  
-![Окно удаления записи](../../Mockups/DeleteNote.PNG)  
+![DeleteNote](Mockups/DeleteNote.png)  
 Окно выбора пути для сохранения записи.  
-![Окно выбора пути для сохранения записи](../../Mockups/Settings.PNG)  
+![Settings](Mockups/Settings.png)  
 
 <a name="user_specifications"/>
 
