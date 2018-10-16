@@ -30,8 +30,7 @@
     3.2.1 [Quality Attributes](#quality_attributes) <br>
       3.2.1.1 [Usability Requirements](#requirements_for_ease_of_use) <br>
       3.2.1.2 [Security Requirements](#security_requirements) <br>
-    3.2.2 [External Interfaces](#external_interfaces) <br>
-    3.2.3 [Restrictions](#restrictions) <br>
+    3.2.2 [Restrictions](#restrictions) <br>
 
 <a name="intro"/>
 
@@ -203,22 +202,18 @@ People of any age category with the above qualities.
 
 #### 3.2.1.1 Usability Requirements
 
-1. The interface should be clear and easy to use.
-2. Convenient location of the table with entries and buttons to perform basic functions.
+1. Convenient location of the table with entries and buttons to perform basic functions.
+2. It takes only a few seconds to launch a project.
+3. The interface should be clear and easy to use.
 
 <a name="security_requirements"/>
 
 #### 3.2.1.2 Security Requirements
- - The application should provide reliable information storage until it is deleted by the user.
- - The application should display a message confirming the removal operations.
- - The application should not restrict user access to files with records.
+ 1. The application should provide reliable information storage until it is deleted by the user.
+ 2. The application should display a message confirming the removal operations.
+ 3. The application should not restrict user access to files with records.
  
-<a name="external_interfaces"/>
-
-### 3.2.2 External Interfaces
-The project uses several windows that allow users to improve interaction with the application.
-
 <a name="restrictions"/>
 
-### 3.2.3 Restrictions
+### 3.2.2 Restrictions
 The application is implemented in the Java programming language.
