@@ -203,19 +203,20 @@ People of any age category with the above qualities.
 
 #### 3.2.1.1 Usability Requirements
 
-All functional elements of the user interface have names that describe the action that will occur when an element is selected.
+1. The interface should be clear and easy to use.
+2. Convenient location of the table with entries and buttons to perform basic functions.
 
 <a name="security_requirements"/>
 
 #### 3.2.1.2 Security Requirements
- - The application should provide reliable information storage until it is deleted by the user.
- - The application should not restrict user access to files with records.
+ - The application should provide reliable information storage until it is deleted by the user.
+ - The application should display a message confirming the removal operations.
+ - The application should not restrict user access to files with records.
  
-
 <a name="external_interfaces"/>
 
 ### 3.2.2 External Interfaces
-
+The project uses several windows that allow users to improve interaction with the application.
 
 <a name="restrictions"/>
 
