@@ -88,22 +88,20 @@ The project uses the Swing library to create the GUI of the application and does
 ## 2.2 User Interface
 - Login window to the application.
 
-![Main](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Main.png)
+
+![Main](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Main Window.png)
 - Record creation window.
 
 ![CreateNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/CreateNote.png)
 - Add new record window.
 
-![AddNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/AddNote.png)
+![AddNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Add Note.png)
 - Window successfully added entry.
 
 ![NoteAdded](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/NoteAdded.png)
 - Delete record window.
 
 ![DeleteNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/DeleteNote.png)
-- Window to select the path to save the record.
-
-![Settings](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Settings.png)
 
 <a name="user_specifications"/>
 
@@ -205,21 +203,20 @@ People of any age category with the above qualities.
 <a name="requirements_for_ease_of_use"/>
 
 #### 3.2.1.1 Usability Requirements
-1. Access to the main functions of the application for no more than two operations;
-2. All functional elements of the user interface have names that describe the action that will occur when an element is selected.
+
+All functional elements of the user interface have names that describe the action that will occur when an element is selected.
 
 <a name="security_requirements"/>
 
 #### 3.2.1.2 Security Requirements
+ - The application should provide reliable information storage until it is deleted by the user.
  - The application should not restrict user access to files with records.
- - The application should provide reliable information storage until it is deleted by the user.
+ 
 
 <a name="external_interfaces"/>
 
 ### 3.2.2 External Interfaces
-Application windows are convenient for use by visually impaired users:
-  * font size at least 14pt;
-  * Functional elements are contrasting with the window background.
+
 
 <a name="restrictions"/>
 

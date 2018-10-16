@@ -88,13 +88,13 @@
 ## 2.2 Интерфейс пользователя
 - Окно входа в приложение.  
 
-![Main](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Main.png)  
+![Main](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Main Window.png)  
 - Окно создания записи.  
 
 ![CreateNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/CreateNote.png)  
 - Окно добавления новой записи.  
 
-![AddNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/AddNote.png)  
+![AddNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Add Note.png)  
 - Окно успешно добавленной записи.  
 
 ![NoteAdded](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/NoteAdded.png)  
