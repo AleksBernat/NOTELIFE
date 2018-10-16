@@ -17,7 +17,6 @@
     2.3.2 [Application audience](#application_audience) <br>
       2.3.2.1 [Target audience](#target_audience) <br>
       2.3.2.2 [Secondary audience](#collateral_audience) <br>
-  2.4 [Assumptions and Dependencies](#assumptions_and_dependencies) <br>
 3 [System Requirements](#system_requirements) <br>
   3.1 [Functional requirements](#functional_requirements) <br>
     3.1.1 [Basic Functions](#main_functions) <br>
@@ -41,7 +40,7 @@
 <a name="appointment"/>
 
 ## 1.1 Purpose
-This document describes the functional and non-functional requirements for the NOTELIFE application for Windows 10. This document is intended for people who want to improve their lives.
+This document describes the functional and non-functional requirements for the NOTELIFE application for Windows 8.10. This document is intended for people who want to improve their lives, as well as competently manage their time.
 
 <a name="business_requirements"/>
 
@@ -50,16 +49,17 @@ This document describes the functional and non-functional requirements for the N
 <a name="initial_data"/>
 
 ### 1.2.1 Baseline
-Nowadays, people live in a rapidly changing flow of events. Throughout life, people do something. They have to combine study, work, family and many other things. Almost no free time. And many really important things are forgotten. Therefore, people have come up with ways to memorize such information: colored stickers, notes on paper, etc. However, these options have many drawbacks. In addition, they may not always be at hand. Most people are forced to adapt to the frantic pace of modern life. So how to keep all the important thoughts in your head? How not to forget something really important? How to keep everything under control?
+Nowadays, people live in a rapidly changing flow of events. Throughout life, people do something. They have to combine study, work, family and many other things. Almost no free time. And many really important things are forgotten. Therefore, people have come up with ways to memorize such information: colored stickers, notes on paper, etc. However, these options have many drawbacks. In addition, they may not always be at hand. Most people are forced to adapt to the frantic pace of modern life. So how to keep all the important thoughts in your head? How not to forget something really important? How to keep everything under control? To solve this problem, the idea was to create an application that allows you to record all the necessary information.
 
 <a name="business_opportunities"/>
 
 ### 1.2.2 Business Opportunities
 Many people want to have an application that will allow better control of their lives: daily routine, upcoming events, important events. Such an application will allow them to always remember all the important things and always be ready for all occasions. The interface, designed taking into account all the features of people of different age categories, allows you to increase the number of people using this application.
+
 <a name="project_boundary"/>
 
 ### 1.2.3 Project Borders
-The NOTELIFE app will allow users to add records of important events, edit and view this information about news, selected according to their preferences. When adding a record, the date of creation of the record will be automatically added.
+The NOTELIFE application will allow users to add records of important events, edit and view this information, selected according to their preferences. When adding a record, the date of recording will be automatically added. Outdated or extra entries can be removed from the application. The application allows the user to personally select a place to store records.
 
 <a name="analogues"/>
 
@@ -67,7 +67,7 @@ The NOTELIFE app will allow users to add records of important events, edit and v
 The main analogues of the project being developed are:
 
 1. [LeaderTask](https://www.leadertask.ru/) - is the best application among analogues. It has a huge range of additional features. As a result, it has a highly specialized audience of users.
-2. [Todoist](https://ru.todoist.com) - Has the ability to work on 12 platforms.
+2. [Todoist](https://ru.todoist.com) - Has the ability to work on multiple platforms. However, it is rather difficult to use for users with minimal technical literacy.
 3. [Wunderlist](https://www.wunderlist.com/ru/) - Despite the simplified functionality, it has a much overestimated cost compared to peers.
 
 <a name="user_requirements"/>
@@ -77,9 +77,11 @@ The main analogues of the project being developed are:
 <a name="software_interfaces"/>
 
 ## 2.1 Program Interfaces
-  - The ability to view added entries must be implemented.
-  - A record search system must be implemented.
-  - It must be possible to save the added entries on the computer
+The project uses the Swing library to create the GUI of the application and does not interact with external systems and services.
+ In project:
+  - It must be possible to view added records;
+  - Must be implemented search system records;
+  - It must be possible to save the added entries on the computer.
 
 <a name="user_interface"/>
 
@@ -126,12 +128,6 @@ Middle-aged people with secondary or higher secondary education, with minimal te
 
 #### 2.3.2.2 Secondary audience
 People of any age category with the above qualities.
-
-<a name="assumptions_and_dependencies"/>
-
-## 2.4 Assumptions and Dependencies
-1. The application works in the absence of an Internet connection;
-
 
 <a name="system_requirements"/>
 
@@ -212,11 +208,11 @@ People of any age category with the above qualities.
 1. Access to the main functions of the application for no more than two operations;
 2. All functional elements of the user interface have names that describe the action that will occur when an element is selected.
 
-
 <a name="security_requirements"/>
 
 #### 3.2.1.2 Security Requirements
-
+ - The application should not restrict user access to files with records.
+ - The application should provide reliable information storage until it is deleted by the user.
 
 <a name="external_interfaces"/>
 
@@ -228,4 +224,4 @@ Application windows are convenient for use by visually impaired users:
 <a name="restrictions"/>
 
 ### 3.2.3 Restrictions
-1. The application is implemented on the Java platform.
+The application is implemented in the Java programming language.
