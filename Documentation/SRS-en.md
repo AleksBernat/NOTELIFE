@@ -209,9 +209,10 @@ People of any age category with the above qualities.
 <a name="security_requirements"/>
 
 #### 3.2.1.2 Security Requirements
- 1. The application should provide reliable information storage until it is deleted by the user.
- 2. The application should display a message confirming the removal operations.
- 3. The application should not restrict user access to files with records.
+
+1. The application should provide reliable information storage until it is deleted by the user. <br>
+2. The application should display a message confirming the removal operations. <br>
+3. The application should not restrict user access to files with records. <br>
  
 <a name="restrictions"/>
 
