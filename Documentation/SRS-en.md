@@ -88,14 +88,13 @@ The project uses the Swing library to create the GUI of the application and does
 ## 2.2 User Interface
 - Login window to the application.
 
-
-![Main](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Main Window.png)
+![Main](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/MainWindow.png)
 - Record creation window.
 
 ![CreateNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/CreateNote.png)
 - Add new record window.
 
-![AddNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/Add Note.png)
+![AddNote](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/AddNote.png)
 - Window successfully added entry.
 
 ![NoteAdded](https://github.com/AleksBernat/NOTELIFE/blob/master/Mockups/NoteAdded.png)
