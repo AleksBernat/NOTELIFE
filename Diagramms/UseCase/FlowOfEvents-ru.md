@@ -1,9 +1,8 @@
 # FlowOfEvents-ru
 ---
 
-![UseCase](https://github.com/BernatAleksey650505/NOTELIFE/blob/master/Diagramms/UseCase/UseCase.png)
+![UseCase](https://github.com/BernatAleksey650505/NOTELIFE/blob/master/Diagramms/UseCase/Use%20Case.png)
 
-l
 # Содержание
 1 [Актёры](#1) <br>
 2 [Варианты использования](#2) <br>
