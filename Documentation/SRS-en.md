@@ -20,10 +20,10 @@
 3 [System Requirements](#system_requirements) <br>
   3.1 [Functional requirements](#functional_requirements) <br>
     3.1.1 [Basic Functions](#main_functions) <br>
-      3.1.1.1 [Create Note](#user_logon_to_the_application) <br>
-      3.1.1.2 [Add Note](#setting_up_the_profile_of_the_active_user) <br>
-      3.1.1.3 [Edit post](#download_news) <br>
-      3.1.1.4 [Save Note](#view_information_about_an_individual_newsletter) <br>
+      3.1.1.1 [Add Note](#user_logon_to_the_application) <br>
+      3.1.1.2 [Note Sorting](#setting_up_the_profile_of_the_active_user) <br>
+      3.1.1.3 [Edit Note](#download_news) <br>
+      3.1.1.4 [Note Search](#view_information_about_an_individual_newsletter) <br>
       3.1.1.5 [Delete Note](#active_user_change) <br>
     3.1.2 [Limitations and Exceptions](#restrictions_and_exclusions) <br>
   3.2 [Non-functional requirements](#non-functional_requirements) <br>
@@ -139,51 +139,50 @@ People of any age category with the above qualities.
 
 <a name="user_logon_to_the_application"/>
 
-#### 3.1.1.1 Create Note
-**Description.** The user has the ability to create an entry.
+#### 3.1.1.1 Add Note
+**Description.** The user has the ability to add a new entry.
 
 | Function | Requirements |
-|:--- |:---|
-| Create Note | The application must provide the user the ability to create a record |
+|:---|:---|
+| Add record | The application should provide the user with the opportunity to create a record, as well as 2 fields for entering the main topic (name) of the record and its brief description. The user must either fill in all the fields and confirm the action, or cancel it |
 
 
 <a name="setting_up_the_profile_of_the_active_user"/>
 
-#### 3.1.1.2 Add Note
-**Description.** User has the option to add a new entry.
+#### 3.1.1.2 Note Sorting
+**Description.** User has the ability to sort existing Notes.
 
 | Function | Requirements |
 |:---|:---|
-| Add Note | The application should provide the user with a field to enter the main topic (name) of the entry, as well as a brief description of the topic of the entry. The user must either fill in all the fields and confirm the action, or cancel it |
+| Sort new Note | The application must provide the user with criteria for sorting the Note (by size, by date of addition). |
 
 <a name="download_news"/>
 
 #### 3.1.1.3 Edit Note
-**Description.** The user should be able to change the added entry.
+**Description.** The user should be able to change the added Note.
 
 | Function | Requirements |
 |:---|:---|
-| Edit Note | The application should provide the user with the ability to edit individual elements of a post: subject, description |
+| Editing a record | The application should provide the user with the ability to edit individual elements of a post: title, description |
 
 
 <a name="view_information_about_an_individual_newsletter"/>
 
-#### 3.1.1.4 Save Note
-**Description.** The user should be able to save their records.
+#### 3.1.1.4 Note Search
+**Description.** The user must be able to search his Notes.
 
 | Function | Requirements |
 |:---|:---|
-| Save Note | The user has the opportunity to choose the path to save their records. The application should display the path for storing records, selected by default, and also provide the ability to select another path |
-
+| Note Search | The user has the ability to search for Notes by title and description. The application must sort the existing Notes according to the search results |
 
 <a name="active_user_change"/>
 
 #### 3.1.1.5 Delete Note
-**Description.** The user should be able to delete unwanted entries.
+**Description.** The user should be able to delete unwanted Notes.
 
 | Function | Requirements |
 |:---|:---|
-| Delete Note | The user has the ability to delete an extra entry. The application should display a window to confirm the deletion of the selected entry and give the user one last chance before choosing |
+| Delete Note | The user has the ability to delete an extra Note. The application should display a window to confirm the deletion of the selected Note and give the user one last chance before choosing |
 
 
 <a name="restrictions_and_exclusions"/>
