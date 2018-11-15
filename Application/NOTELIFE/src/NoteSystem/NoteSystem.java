@@ -47,7 +47,6 @@ import javax.swing.table.TableCellEditor;
 public class NoteSystem extends JFrame {
 
     public NoteList noteList;
-
     public String[] columnNames = {"Title",
         "Description",
         "Date"
@@ -63,9 +62,7 @@ public class NoteSystem extends JFrame {
     DefaultTableModel dtm;
     JTable selectionTable;
     static String defaultPath = Paths.get("").toAbsolutePath().toString();
-
     int sortType = 0;
-
     int editableRow = -2;
 
     public static NoteSystem MainWindow;
@@ -79,7 +76,6 @@ public class NoteSystem extends JFrame {
         contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.Y_AXIS));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-
         JPanel titlePanel = new JPanel();
         titlePanel.setLayout(new BoxLayout(titlePanel, BoxLayout.X_AXIS));
 
@@ -87,12 +83,10 @@ public class NoteSystem extends JFrame {
         title.setFont(new Font("Arial", Font.BOLD, 25));
         titlePanel.add(title);
 
-
         JPanel topButtonBar = new JPanel();
         topButtonBar.setLayout(new BoxLayout(topButtonBar, BoxLayout.X_AXIS));
 
         JLabel sortLabel = new JLabel("Sort by:    ");
-
 
         final JComboBox sortBox = new JComboBox() {
             @Override
@@ -103,7 +97,6 @@ public class NoteSystem extends JFrame {
                 return max;
             }
         };
-
 
         sortBox.addItem("Date - Newest First");
         sortBox.addItem("Date - Oldest First");
@@ -388,7 +381,7 @@ public class NoteSystem extends JFrame {
 
         tablePanel.add(tableHolder);
 
-        //Add everything to the contentPanel
+
         contentPanel.add(titlePanel);
         contentPanel.add(Box.createRigidArea(new Dimension(15, 15)));
         contentPanel.add(topButtonBar);

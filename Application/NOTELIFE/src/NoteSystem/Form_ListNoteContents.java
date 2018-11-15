@@ -144,7 +144,6 @@ public class Form_ListNoteContents extends JDialog {
         });
         scrollPanel.add(list, BorderLayout.CENTER);
 
-
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.X_AXIS));
 

@@ -1,4 +1,3 @@
-
 package NoteSystem;
 
     import java.io.File;
@@ -10,8 +9,7 @@ package NoteSystem;
     import java.util.Comparator;
     import java.util.Scanner;
 
-    public class NoteList
-    {
+    public class NoteList {
 
     ArrayList<Note> list;
     String defaultPath;
@@ -21,8 +19,7 @@ package NoteSystem;
     final int SORT_FILESIZE_SMALLESTFIRST = 3;
     final int SORT_VIEWS_MOST = 4;
 
-    public NoteList(String defaultPath)
-    {
+    public NoteList(String defaultPath) {
         list = new ArrayList<>();
         this.defaultPath = defaultPath;
     }
@@ -31,48 +28,43 @@ package NoteSystem;
     {
         return list;
     }
-
     public void setList(ArrayList<Note> list)
     {
         this.list = list;
     }
-
 
     public void searchList(String searchTerm)
     {
         list = Search.sortListBy(list, searchTerm);
     }
 
+    public void refreshNoteList() {
 
-    public void refreshNoteList()
-    {
         list.clear();
         File saveFolder = new File(defaultPath);
         File[] filesInFolder = saveFolder.listFiles();
         ArrayList<File> directoriesInFolder = new ArrayList<>();
 
-        for (int i = 0; i < filesInFolder.length; i++)
-        {
-            if (filesInFolder[i].isDirectory())
-            {
+        for (int i = 0; i < filesInFolder.length; i++) {
+            if (filesInFolder[i].isDirectory()) {
                 directoriesInFolder.add(filesInFolder[i]);
             }
         }
 
         int numOfNotes = directoriesInFolder.size();
 
-        for (int i = 0; i < numOfNotes; i++)
-        {
+        for (int i = 0; i < numOfNotes; i++) {
+
             File currentFolder = directoriesInFolder.get(i);
             File infoFile = new File(currentFolder.getPath() + "/data.info");
             Scanner infoReader;
-            try
-            {
-                infoReader = new Scanner(infoFile);
 
+            try {
+
+                infoReader = new Scanner(infoFile);
                 ArrayList<String> info = new ArrayList<>();
-                while (infoReader.hasNext())
-                {
+
+                while (infoReader.hasNext()) {
                 info.add(infoReader.nextLine());
                 }
                 infoReader.close();
@@ -82,7 +74,6 @@ package NoteSystem;
                 int numOfFiles = currentFolder.listFiles().length;
 
                 String dateString = info.get(4).substring(5, info.get(4).length());
-
 
                 Calendar date = Calendar.getInstance();
                 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy.MM.dd h:mm a");
@@ -99,27 +90,24 @@ package NoteSystem;
     }
 
 
-    public long noteSize(File directory)
-    {
+    public long noteSize(File directory) {
+
         long length = 0;
-        for (File file : directory.listFiles())
-        {
-            if (file.isFile() || !file.exists())
-            {
+        for (File file : directory.listFiles()) {
+
+            if (file.isFile() || !file.exists()) {
                 length += file.length();
             }
-            else
-            {
+            else {
                 length += noteSize(file);
             }
         }
         return length;
     }
 
-    public void sortList(int sortMethod)
-    {
-        switch (sortMethod)
-        {
+    public void sortList(int sortMethod) {
+
+        switch (sortMethod) {
             case (SORT_DATE_NEWESTFIRST):
                 Collections.sort(list, new SortDateNewestFirst());
             break;
@@ -146,12 +134,10 @@ package NoteSystem;
     }
 }
 
-    class SortDateNewestFirst implements Comparator<Note>
-    {
+    class SortDateNewestFirst implements Comparator<Note> {
 
     @Override
-    public int compare(Note a, Note b)
-    {
+    public int compare(Note a, Note b) {
         if (a.date.before(b.date)) {
             return 1;
         }
@@ -164,8 +150,7 @@ package NoteSystem;
     @Override
     public int compare(Note a, Note b)
     {
-        if (a.date.after(b.date))
-        {
+        if (a.date.after(b.date)) {
             return 1;
         }
         return -1;
@@ -176,8 +161,7 @@ package NoteSystem;
 
     @Override
     public int compare(Note a, Note b) {
-        if (a.size < b.size)
-        {
+        if (a.size < b.size) {
             return 1;
         }
         return -1;

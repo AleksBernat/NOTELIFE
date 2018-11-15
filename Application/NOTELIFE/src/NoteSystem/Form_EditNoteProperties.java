@@ -72,7 +72,6 @@ public class Form_EditNoteProperties extends JDialog {
         titleLabel.setFont(new Font("Arial", Font.BOLD, 20));
         titlePanel.add(titleLabel);
 
-
         JPanel noteTitlePanel = new JPanel() {
             @Override
             public Dimension getMaximumSize() {
@@ -90,7 +89,6 @@ public class Form_EditNoteProperties extends JDialog {
 
         final JTextField noteTitleField = new JTextField(note.title);
         noteTitlePanel.add(noteTitleField);
-
 
         JPanel noteDescriptionPanel = new JPanel() {
             @Override
@@ -110,7 +108,6 @@ public class Form_EditNoteProperties extends JDialog {
         final JTextField noteDescriptionField = new JTextField(note.description);
         noteDescriptionPanel.add(noteDescriptionField);
 
-
         JPanel noteTagsPanel = new JPanel() {
             @Override
             public Dimension getMaximumSize() {
@@ -119,7 +116,6 @@ public class Form_EditNoteProperties extends JDialog {
                 return max;
             }
         };
-
 
         JPanel buttonPanel = new JPanel();
         buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.X_AXIS));
@@ -130,7 +126,6 @@ public class Form_EditNoteProperties extends JDialog {
             @Override
             public void actionPerformed(ActionEvent ae) {
                 boolean error = false;
-
 
                 if (noteTitleField.getText() == null || noteTitleField.getText().length() == 0) {
                     error = true;
@@ -209,7 +204,6 @@ public class Form_EditNoteProperties extends JDialog {
         descriptionError.setLayout(new BoxLayout(descriptionError, BoxLayout.X_AXIS));
         descriptionError.add(descriptionErrorLabel);
         descriptionError.add(Box.createHorizontalGlue());
-
 
         contentPanel.add(titlePanel);
         contentPanel.add(Box.createRigidArea(new Dimension(15, 15)));
