@@ -1,5 +1,5 @@
 .idea/
 *.iml
-out/
-bin/
+/.classpath
+/*.project
 META-INF/

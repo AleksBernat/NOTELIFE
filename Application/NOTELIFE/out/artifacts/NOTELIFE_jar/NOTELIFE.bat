@@ -1,0 +1,1 @@
+java -jar NOTELIFE.jar
